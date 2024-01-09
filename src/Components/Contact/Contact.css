@@ -1,0 +1,92 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cirtifications {
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.cirtification {
+    display: flex;
+    flex-direction: column;
+}
+.cirtificationImg {
+    object-fit: cover;
+    min-height: 9rem;
+    margin: auto;
+    padding: 0.2rem;
+    width: 220PX;
+    height: 180PX;
+}
+
+#contact {
+    background-color:dimgrey;
+    border-radius: 1rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a {
+    opacity: 0.7;
+}
+.links a:hover {
+    opacity: 1;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+h2 {
+    /* height: 3rem; */
+    /* width: 100%; */
+    color: darkviolet;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+   
+}
